@@ -1,0 +1,36 @@
+name: gym_frontend
+description: Gym Machine Inventory App (Flutter desktop)
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^1.5.0           # matches latest google_fonts
+  google_fonts: ^6.3.0
+  cupertino_icons: ^1.0.8
+  image_picker: ^0.8.7+6
+  shared_preferences: ^2.2.2
+  animated_background: ^2.0.0
+  fl_chart: ^0.65.0
+  mime: ^1.0.6
+  http_parser: ^4.0.2
+  intl: ^0.20.2 
+  provider: ^6.1.2
+  flutter_localizations:
+    sdk: flutter
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  generate: true
+  uses-material-design: true
+  assets:
+    - assets/images/

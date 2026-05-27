@@ -1,0 +1,32 @@
+# Dependencies
+node_modules/
+.packages
+.pub-cache/
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+
+# Build outputs
+build/
+*.iml
+*.ipr
+*.iws
+
+# Environment & secrets
+.env
+.env.local
+.env.*.local
+
+# Uploaded files (regenerated at runtime)
+Backend/uploads/
+
+# OS files
+Thumbs.db
+.DS_Store
+.idea/
+.vscode/
+
+# Misc
+*.log
+*.sqlite
+*.db
